@@ -33,7 +33,6 @@ body {
 }
 
 /* card */
-
 .title {
   margin: 0;
   width: 100%;
@@ -80,18 +79,11 @@ body {
   background-color: black;
 }
 
-
-
-.hero {
-  position: relative;
-  background-color: #000; /* Fallback color */
-}
-
 /* Carousel item image customization */
 .carousel-item img {
   object-fit: cover;
   height: 55vh; /* Makes the carousel full height */
-  opacity: 0.40; /* Slight transparency on images */
+  opacity: 0.85; /* Slight transparency on images */
 }
 
 /* Carousel caption customization */
@@ -140,8 +132,4 @@ body {
   .carousel-control-next-icon {
     display: none; /* Hide prev/next arrows on small screens */
   }
-}
-.gallery-img {
-  object-fit: cover;
-  height: 250px;
 }
