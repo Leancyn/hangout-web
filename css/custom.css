@@ -133,3 +133,7 @@ body {
     display: none; /* Hide prev/next arrows on small screens */
   }
 }
+.gallery-img {
+  object-fit: cover;
+  height: 250px;
+}
