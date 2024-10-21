@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&family=Poppins:wght@300;400;500&display=swap");
 
+* {
+  margin: 0;
+  padding: 0;
+  z-index: -9999;
+}
+
 body {
   background-image: url(/asset/kitchen.jpg);
   background-size: cover;
