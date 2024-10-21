@@ -79,3 +79,65 @@ body {
 .ct1 {
   background-color: black;
 }
+
+
+
+.hero {
+  position: relative;
+  background-color: #000; /* Fallback color */
+}
+
+/* Carousel item image customization */
+.carousel-item img {
+  object-fit: cover;
+  height: 55vh; /* Makes the carousel full height */
+  opacity: 0.85; /* Slight transparency on images */
+}
+
+/* Carousel caption customization */
+.carousel-caption {
+  bottom: 20%; /* Adjust the position of the caption */
+}
+
+.carousel-caption h1 {
+  font-size: 3.5rem;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Adds text shadow */
+}
+
+.carousel-caption p {
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-caption .btn {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 50px; /* Rounded buttons */
+  text-shadow: none; /* Remove text shadow on buttons */
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); /* Button shadow */
+}
+
+/* Customize carousel indicators */
+.carousel-indicators [data-bs-target] {
+  background-color: #fff;
+}
+
+/* Hide carousel controls on small screens */
+@media (max-width: 576px) {
+  .carousel-caption h1 {
+    font-size: 2rem;
+  }
+
+  .carousel-caption p {
+    font-size: 1.2rem;
+  }
+
+  .carousel-caption {
+    bottom: 10%;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    display: none; /* Hide prev/next arrows on small screens */
+  }
+}
