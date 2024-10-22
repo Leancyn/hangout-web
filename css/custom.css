@@ -1,11 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&family=Poppins:wght@300;400;500&display=swap");
 
-* {
-  margin: 0;
-  padding: 0;
-  z-index: -9999;
-}
-
 body {
   background-image: url(/asset/kitchen.jpg);
   background-size: cover;
@@ -42,19 +36,17 @@ body {
 }
 
 .card {
-  width: 90%;
+  width: 100%;
   max-width: 400px;
-  padding: 2rem 2.5rem;
-  border-radius: 1rem;
-  -webkit-border-radius: 1rem;
-  -moz-border-radius: 1rem;
-  -ms-border-radius: 1rem;
-  -o-border-radius: 1rem;
+  padding: 4rem 2.5rem;
+  border-radius: 4rem;
+  -webkit-border-radius: 4rem;
+  -moz-border-radius: 4rem;
+  -ms-border-radius: 4rem;
+  -o-border-radius: 4rem;
   border: 1px solid transparent;
-
   backdrop-filter: blur(1rem);
   box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5);
-
   border-top-color: rgba(255, 255, 255, 0.5);
   border-left-color: rgba(255, 255, 255, 0.5);
   border-bottom-color: rgba(255, 255, 255, 0.1);
@@ -79,21 +71,19 @@ body {
   background-color: black;
 }
 
-/* Carousel item image customization */
 .carousel-item img {
   object-fit: cover;
-  height: 55vh; /* Makes the carousel full height */
-  opacity: 0.85; /* Slight transparency on images */
+  height: 55vh;
+  opacity: 0.85;
 }
 
-/* Carousel caption customization */
 .carousel-caption {
-  bottom: 20%; /* Adjust the position of the caption */
+  bottom: 20%;
 }
 
 .carousel-caption h1 {
   font-size: 3.5rem;
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Adds text shadow */
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
 }
 
 .carousel-caption p {
@@ -104,12 +94,11 @@ body {
 .carousel-caption .btn {
   padding: 0.75rem 1.5rem;
   font-size: 1.2rem;
-  border-radius: 50px; /* Rounded buttons */
-  text-shadow: none; /* Remove text shadow on buttons */
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); /* Button shadow */
+  border-radius: 50px;
+  text-shadow: none;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-/* Customize carousel indicators */
 .carousel-indicators [data-bs-target] {
   background-color: #fff;
 }
